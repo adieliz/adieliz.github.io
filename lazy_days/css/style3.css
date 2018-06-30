@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Spectral');
+
+<style>
+
+body{
+  width: 1000px;
+  text-align: center;
+  background-color: inherit;
+  color: #333333;
+  margin-left: 260px;
+  margin-right: 260px;
+
+
+}
+
+.header{
+  background-color: #FCEE21;
+  height: 150px;
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-family: "Open Sans";
+  padding-left: 260px;
+  padding-right: 260px;
+
+
+
+}
+
+.article{
+  text-align: center;
+  padding: 20px 100px 20px 120px;
+  margin: 0 auto;
+
+
+}
+hr{
+  width: 800px;
+}
+
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 260px;
+  margin-right: 260px;
+}
+
+ul{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li{
+  padding: 30px;
+  display: inline;
+  padding: 0px 15px 0px 15px;
+  font-weight: bold;
+}
+
+h2{
+  font-family: "open sans";
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+h3{
+  font-family: "spectral";
+  font-size: 20px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+
+  }
+
+p{
+  text-align: justify;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+.footer {
+  background-color: #FCEE21;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 120px;
+  
+}
+
+</style>
