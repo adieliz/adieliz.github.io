@@ -1,0 +1,41 @@
+body {
+  font-family: 'Questrial', sans-serif;
+  color: #D16121;
+  -webkit-font-smoothing: antialiased;
+  background-color: #FCFBE3;
+}
+
+h1, h2 {
+  font-family: 'Chicle', cursive;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+
+header, footer {
+  padding: 5px 20px;
+  border: 2px solid #D16121;
+  border-radius: 4px;
+  background: #D16121;
+  color: #fff;
+}
+
+img {
+	max-width: 100%;
+
+}
+
+section{
+  display: flex;
+  justify-content: flex-end;
+}
+
+section div {
+  width: 50%;
+}
+
+
+}
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
