@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Satisfy');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 0.75px;
+	background-color: #F4F4F4;
+	color: #373737;
+
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+img:hover{
+	opacity: .5;
+}
+
+header{
+  text-align: center;
+  text-decoration: none;
+}
+
+nav{
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 20px 20px;
+  display: inline-block;
+	color: black;
+
+}
+
+.hamburger {
+	background-color: #F4F4F4;
+	font-size: 27px;
+	padding: 10px 30px;
+	color:black;
+
+}
+
+.hamburger {
+  display: none;
+}
+
+
+.headerwrap{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+h1{
+  font-family: "satisfy", cursive;
+  font-size: 80px;
+	margin: 0;
+
+}
+
+h2{
+  font-family: "lato", sans-serif;
+  font-size: 23px;
+	margin: 0;
+}
+
+.about{
+	margin-bottom: 5px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.about p{
+	font-family: "lato", sans-serif;
+	font-size: 18px;
+}
+
+h3{
+	font-family: "satisfy", cursive;
+	font-size: 22px;
+	margin-bottom: 0;
+
+}
+
+h3 a{
+	color:black;
+	text-decoration: none;
+}
+
+h3 a:hover{
+	opacity: .5;
+}
+
+h4{
+	font-family: "lato", sans-serif;
+	font-size: 14px;
+	margin: 0;
+	text-transform:uppercase;
+
+}
+
+
+h4 a{
+	color: black;
+	text-decoration: none;
+}
+
+h4 a:hover{
+	opacity: .5;
+}
+
+
+.recipeguide p{
+	font-family: "lato", sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+#button1, #button2, #button3, #button4, #button5, #button6 {
+	border-radius: 8px;
+	font-size: 12px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover{
+	background-color: #C0B283;
+}
+
+.article{
+	padding-bottom: 50px;
+}
+
+
+.diplist, .pastalist, .meatlist, .seafoodlist, .sidelist, .dessertlist{
+	display:none;
+}
+
+.active{
+	display:inline-block;
+	white-space: nowrap;
+
+
+}
+
+.recipeguide{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+	flex-grow: 0;
+}
+
+.recipeguide div{
+  width: 30%;
+}
+
+ul{
+	font-family: "lato", sans-serif;
+	font-size: 15px;
+	margin: 0;
+	list-style-type: none;
+
+
+}
+
+ul a{
+	text-decoration: none;
+	color:black;
+}
+
+ul a:hover{
+	opacity: .5;
+}
+
+
+.photogallery {
+	max-width: 400px;
+	max-height: 400px;
+	margin: auto;
+
+}
+
+.myPhotos {
+	margin: 0 auto;
+	max-width: 400px;
+	max-height: 300px;
+	display: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 25px;
+	border-width: 10px;
+}
+
+.myPhotos:first-of-type {
+	display: block;
+}
+
+#previous, #next {
+	border-radius: 8px;
+	font-size: 8px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 8px 15px;
+	margin: 0 5px;
+	display: inline-block;
+}
+
+
+#next {
+	  right: 0;
+	  border-radius: 8px;
+}
+
+#previous:hover, #next:hover {
+  background-color: #C0B283;
+}
+
+footer{
+	text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+  .recipeguide div{
+    width: 48%;
+	}
+		.hamburger {
+	    display: block;
+	    text-align: left;
+	  }
+
+		nav a{
+			display: none;
+		}
+}
+
+
+@media screen and (max-width: 500px){
+	h1{
+		font-size: 40px;
+	}
+
+	h2{
+		font-size: 18px;
+
+	}
+
+	.about{
+
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.about p{
+		font-size: 14px;
+	}
+  .recipeguide div{
+    width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+  }
+	.article img{
+		max-width: 400px;
+	}
+
+
+}
